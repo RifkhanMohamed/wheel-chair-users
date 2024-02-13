@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "524262471288",
+    "project_id": "wheelchair-users",
+    "storage_bucket": "wheelchair-users.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:524262471288:android:71bdafee7339066ef61f8d",
+        "android_client_info": {
+          "package_name": "com.example.wheelchairusers"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "524262471288-08320na4cfdq1bpahfdgkvss9ba72c3c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDgHL0e26E3wJGS1mJxJovw_txIEaJ47TU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "524262471288-08320na4cfdq1bpahfdgkvss9ba72c3c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PlaceFragment">
+
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/beacon_image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/beacon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/RoundCorner" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/cadmon_image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="20dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cadmon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/RoundCorner" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/flaxmon_image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="280dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/flaxmon"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/RoundCorner" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/mellor_image"
+        android:layout_width="140dp"
+        android:layout_height="140dp"
+        android:layout_marginLeft="220dp"
+        android:layout_marginTop="280dp"
+        android:adjustViewBounds="true"
+        android:scaleType="centerCrop"
+        android:src="@drawable/mellor"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:shapeAppearanceOverlay="@style/RoundCorner" />
+
+    <Button
+        android:id="@+id/beacon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="180dp"
+        android:text="Beacon" />
+
+    <Button
+        android:id="@+id/cadmon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="180dp"
+        android:text="Cadmon" />
+
+    <Button
+        android:id="@+id/flaxmon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="440dp"
+        android:text="Flaxmon" />
+
+    <Button
+        android:id="@+id/mellor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="240dp"
+        android:layout_marginTop="440dp"
+        android:text="Mellor" />
+</FrameLayout>
