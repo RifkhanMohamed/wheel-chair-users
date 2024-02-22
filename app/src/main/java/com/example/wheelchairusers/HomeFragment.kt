@@ -228,7 +228,7 @@ class HomeFragment : Fragment() {
         askButton?.setOnClickListener{
                         val databaseRef = database.reference.child("help").child(auth.currentUser!!.uid)
                         val helps : Help = Help(user,carer,status,latitude,longitude)
-                        databaseRef.get().addOnSuccessListener {
+                        databaseRef.get().addOnSuccessListener { it ->
                             if (it.exists()){
                                 databaseRef.child("status").setValue("request").addOnCompleteListener{
                                     if (it.isSuccessful){
